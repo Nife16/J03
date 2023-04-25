@@ -59,10 +59,13 @@ public class DataTypes {
 
         //Initializing an array, *** YOU MUST GIVE AN ARRAY ITS SIZE UPON INITIALIZATION ***
         myStringArray = new String[10];
+
+        // Last index of an array is ALWAYS array.length - 1
+        int lastIndex = myStringArray.length - 1; 
         //All the values of an array are default to 0 for numbers, "" for Strings, ' ' for chars
 
         // Arrays can be hard coded with values like such
-        int[] numArray = {1,2,3,4,5,6}; 
+        int[] numArray = {1,2,3,4,5,6};
 
     }
     

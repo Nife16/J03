@@ -69,7 +69,7 @@ public class Lab2 {
     }
 
     public static void xor(boolean bool1, boolean bool2) {
-
+        // ^ is the xor
         if (bool1 ^ bool2) {
             System.out.println("True");
         } else {

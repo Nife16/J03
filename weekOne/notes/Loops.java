@@ -18,7 +18,7 @@ public class Loops {
          * because of this its natural to use a counter or have somethin set your
          * condition to false so you do not have an endless loop
          */
-        int count = 1;
+        int count = 11;
         while(count < 10) {
             // do stuff
             count++; // this will make sure your condition will eventually be false so your loop will end
